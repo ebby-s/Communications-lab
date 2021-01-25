@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="40C9F764FA7BA6A323128983CD0D1132149F527350DFAE82D2CE8735981F4193264995B75A8E8183EA803C2FA5BEA0924DBEB03EE5347C7C05A1E50EEEBD43A0" Timestamp="1D6F3021A8B0F7D" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="6.4.0.49504" FeatureSetName="Data" Name="http://www.ni.com/Data" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.0.49504" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+		<ApplicationVersionInfo Build="6.4.0.49504" Name="LabVIEW NXG" Version="3.1.0" />
+	</SourceModelFeatureSet>
+	<DataIndexDefinition xmlns="http://www.ni.com/Data" />
+	<EnvoyManagerFile Id="b392357175254c6ca53498d002699c07" xmlns="http://www.ni.com/PlatformFramework">
+		<ProjectSettings Id="c48dc77a9385481ebd9435fd49972425" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="e71ebe93fa6460f8fc901a7debc5c3b" Name="data.xml" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Id="d9831078824947289236f8bafb134abd" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root">
+				<TDMSRootDefinition StoragePath="Data-2021-01-25 092737 602.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Id="ba22773ec99442c8a791a085f9a2c265" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP">
+					<TDMSGroupDefinition GroupName="Capture 1" Source="AM.gvi" SourceType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Timestamp="01/25/2021 09:27:37" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Id="4cfdcc84946d4aa09060705e8dbb5f37" ModelDefinitionType="TDMSDataItemDefinition" Name="C_amplitude">
+						<TDMSDataItemDefinition DataName="C_amplitude" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="7d07375b6e0742b282bb87211abaca3d" ModelDefinitionType="TDMSDataItemDefinition" Name="C_frequency">
+						<TDMSDataItemDefinition DataName="C_frequency" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="8925b08bd35343a1ba488338b010a770" ModelDefinitionType="TDMSDataItemDefinition" Name="C_sample_rate">
+						<TDMSDataItemDefinition DataName="C_sample_rate" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="7c471b38878942ecab42c8e81bab2660" ModelDefinitionType="TDMSDataItemDefinition" Name="C_samples">
+						<TDMSDataItemDefinition DataName="C_samples" DataType="Int32" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="11d2639f26234c10808187e24aeae0b0" ModelDefinitionType="TDMSDataItemDefinition" Name="M_amplitude">
+						<TDMSDataItemDefinition DataName="M_amplitude" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="af37542ea3844f9382e3d0600d94f81b" ModelDefinitionType="TDMSDataItemDefinition" Name="M_frequency">
+						<TDMSDataItemDefinition DataName="M_frequency" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="13547cb5711a46ad9bd34e02184e9884" ModelDefinitionType="TDMSDataItemDefinition" Name="M_sample_rate">
+						<TDMSDataItemDefinition DataName="M_sample_rate" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="9407de2428634f18b6f5a681f14edf2d" ModelDefinitionType="TDMSDataItemDefinition" Name="M_samples">
+						<TDMSDataItemDefinition DataName="M_samples" DataType="Int32" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="6c10f63b1584e769a633886b74bbc77" ModelDefinitionType="TDMSDataItemDefinition" Name="carrier_signal">
+						<TDMSDataItemDefinition DataName="carrier_signal" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="5bd656c1acd4542846b90ebb1028a92" ModelDefinitionType="TDMSDataItemDefinition" Name="message_signal">
+						<TDMSDataItemDefinition DataName="message_signal" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="9fea4c96dd984e54bcefb5df215cef6d" ModelDefinitionType="TDMSDataItemDefinition" Name="message power spectrum">
+						<TDMSDataItemDefinition DataName="message power spectrum" DataType="@a8106957b9c74a119f0e3cfccf03e781" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="2c8275bcd4424a89984356276a084a7f" ModelDefinitionType="TDMSDataItemDefinition" Name="AM_signal">
+						<TDMSDataItemDefinition DataName="AM_signal" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="2368c35ab5fa4e328c65b1926a70ffd4" ModelDefinitionType="TDMSDataItemDefinition" Name="AM power spectrum">
+						<TDMSDataItemDefinition DataName="AM power spectrum" DataType="@a8106957b9c74a119f0e3cfccf03e781" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="840e0ece7c8a4976beacfd8e968c875e" ModelDefinitionType="TDMSDataItemDefinition" Name="carrier power spectrum">
+						<TDMSDataItemDefinition DataName="carrier power spectrum" DataType="@a8106957b9c74a119f0e3cfccf03e781" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="66d250715c094e3ca377337cb686d6b7" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_2">
+				<TDMSRootDefinition StoragePath="Data-2021-01-25 093848 363.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Id="7caa8c4a438946a190415a2d386854d3" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_2">
+					<TDMSGroupDefinition GroupName="Capture 2" Source="AM.gvi" SourceType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Timestamp="01/25/2021 09:38:48" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Id="dd4275235e8c47d79d6f300e61e82e2b" ModelDefinitionType="TDMSDataItemDefinition" Name="C_amplitude_2">
+						<TDMSDataItemDefinition DataName="C_amplitude" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="ac13feb267244b42b3c78c36f4985546" ModelDefinitionType="TDMSDataItemDefinition" Name="C_frequency_2">
+						<TDMSDataItemDefinition DataName="C_frequency" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="e211dcadfda24232ae4df245e3e04618" ModelDefinitionType="TDMSDataItemDefinition" Name="C_sample_rate_2">
+						<TDMSDataItemDefinition DataName="C_sample_rate" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="b062d25a42c2439c8971d57fa628efe7" ModelDefinitionType="TDMSDataItemDefinition" Name="C_samples_2">
+						<TDMSDataItemDefinition DataName="C_samples" DataType="Int32" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="d02c083227e9482e9328173d607660c8" ModelDefinitionType="TDMSDataItemDefinition" Name="M_amplitude_2">
+						<TDMSDataItemDefinition DataName="M_amplitude" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="9648b1f8a6fe4ef993ab0fca3b637dc6" ModelDefinitionType="TDMSDataItemDefinition" Name="M_frequency_2">
+						<TDMSDataItemDefinition DataName="M_frequency" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="1919d701fa764342b7631e551523a5c2" ModelDefinitionType="TDMSDataItemDefinition" Name="M_sample_rate_2">
+						<TDMSDataItemDefinition DataName="M_sample_rate" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="8c3b5bed26b4533bf9adb0e81c83d02" ModelDefinitionType="TDMSDataItemDefinition" Name="M_samples_2">
+						<TDMSDataItemDefinition DataName="M_samples" DataType="Int32" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="a63d1c1e8e1f426ab9c39d09b0fafddc" ModelDefinitionType="TDMSDataItemDefinition" Name="carrier_signal_2">
+						<TDMSDataItemDefinition DataName="carrier_signal" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="b74c5a1ac76446c6929ee56c9854ce18" ModelDefinitionType="TDMSDataItemDefinition" Name="message_signal_2">
+						<TDMSDataItemDefinition DataName="message_signal" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="f5e2083177c840d9b6deb1a9fc1029eb" ModelDefinitionType="TDMSDataItemDefinition" Name="message power spectrum_2">
+						<TDMSDataItemDefinition DataName="message power spectrum" DataType="@a8106957b9c74a119f0e3cfccf03e781" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="2f185c23a23b419283634c6a5cec84fa" ModelDefinitionType="TDMSDataItemDefinition" Name="AM_signal_2">
+						<TDMSDataItemDefinition DataName="AM_signal" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="d57f5982f3814ef2ab82a8e5f460d1fe" ModelDefinitionType="TDMSDataItemDefinition" Name="AM power spectrum_2">
+						<TDMSDataItemDefinition DataName="AM power spectrum" DataType="@a8106957b9c74a119f0e3cfccf03e781" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="73b7b43e1173447da749d3e96f44b222" ModelDefinitionType="TDMSDataItemDefinition" Name="carrier power spectrum_2">
+						<TDMSDataItemDefinition DataName="carrier power spectrum" DataType="@a8106957b9c74a119f0e3cfccf03e781" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="8e30b8be323541709f925500838406a5" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_3">
+				<TDMSRootDefinition StoragePath="Data-2021-01-25 094525 629.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Id="8bddcbe38fd24996acae21c91bbcf57a" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_3">
+					<TDMSGroupDefinition GroupName="Capture 3" Source="AM.gvi" SourceType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Timestamp="01/25/2021 09:45:25" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Id="163a76fb454b47d39b027eefb1f13517" ModelDefinitionType="TDMSDataItemDefinition" Name="C_amplitude_3">
+						<TDMSDataItemDefinition DataName="C_amplitude" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="d65b60244e2c405ea44ba2f9fe9616ae" ModelDefinitionType="TDMSDataItemDefinition" Name="C_frequency_3">
+						<TDMSDataItemDefinition DataName="C_frequency" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="37b9e4b66c8f42cf8ea112a8962570dc" ModelDefinitionType="TDMSDataItemDefinition" Name="C_sample_rate_3">
+						<TDMSDataItemDefinition DataName="C_sample_rate" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="6720ee3a74254c9ea9f1dcbe5fdb6e32" ModelDefinitionType="TDMSDataItemDefinition" Name="C_samples_3">
+						<TDMSDataItemDefinition DataName="C_samples" DataType="Int32" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="d918248f9a6148519d4fdf4c9c3d16d2" ModelDefinitionType="TDMSDataItemDefinition" Name="M_amplitude_3">
+						<TDMSDataItemDefinition DataName="M_amplitude" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="e2caa83484344b6dae2b639ac64fcc8f" ModelDefinitionType="TDMSDataItemDefinition" Name="M_frequency_3">
+						<TDMSDataItemDefinition DataName="M_frequency" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="3399f656bfb54bea92596ba2e2622e59" ModelDefinitionType="TDMSDataItemDefinition" Name="M_sample_rate_3">
+						<TDMSDataItemDefinition DataName="M_sample_rate" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="74231028a1724383b55a2f60335a27dc" ModelDefinitionType="TDMSDataItemDefinition" Name="M_samples_3">
+						<TDMSDataItemDefinition DataName="M_samples" DataType="Int32" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="4bd9a11e9fc34d769309d9f3eaba22e1" ModelDefinitionType="TDMSDataItemDefinition" Name="carrier_signal_3">
+						<TDMSDataItemDefinition DataName="carrier_signal" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="47e9d801a3b2467eb2c0b80e028c66c6" ModelDefinitionType="TDMSDataItemDefinition" Name="message_signal_3">
+						<TDMSDataItemDefinition DataName="message_signal" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="8e0f994c327740f595e6a5638d86c047" ModelDefinitionType="TDMSDataItemDefinition" Name="message power spectrum_3">
+						<TDMSDataItemDefinition DataName="message power spectrum" DataType="@a8106957b9c74a119f0e3cfccf03e781" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="b6fab8b1e96e4a008c9ac3a724b7b3ce" ModelDefinitionType="TDMSDataItemDefinition" Name="AM_signal_3">
+						<TDMSDataItemDefinition DataName="AM_signal" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="a31b92ed29224513a64cf522885665d0" ModelDefinitionType="TDMSDataItemDefinition" Name="AM power spectrum_3">
+						<TDMSDataItemDefinition DataName="AM power spectrum" DataType="@a8106957b9c74a119f0e3cfccf03e781" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="2fb6766e3a904481ae6aad6d4bc9d906" ModelDefinitionType="TDMSDataItemDefinition" Name="carrier power spectrum_3">
+						<TDMSDataItemDefinition DataName="carrier power spectrum" DataType="@a8106957b9c74a119f0e3cfccf03e781" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="a6d49bf0c97e472782a1830f99b977b2" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_4">
+				<TDMSRootDefinition StoragePath="Data-2021-01-25 094825 971.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Id="59c3090f337b46f895faff93a32747b8" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_4">
+					<TDMSGroupDefinition GroupName="Capture 4" Source="AM.gvi" SourceType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Timestamp="01/25/2021 09:48:25" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Id="a8aa5fb24b5b49198262a58e6ce65e40" ModelDefinitionType="TDMSDataItemDefinition" Name="C_amplitude_4">
+						<TDMSDataItemDefinition DataName="C_amplitude" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="b88610748858446f83c191507be41f76" ModelDefinitionType="TDMSDataItemDefinition" Name="C_frequency_4">
+						<TDMSDataItemDefinition DataName="C_frequency" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="6f31d88a1659478394a3fdeccf450f1d" ModelDefinitionType="TDMSDataItemDefinition" Name="C_sample_rate_4">
+						<TDMSDataItemDefinition DataName="C_sample_rate" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="58923e98ada14508bb99a440381ead81" ModelDefinitionType="TDMSDataItemDefinition" Name="C_samples_4">
+						<TDMSDataItemDefinition DataName="C_samples" DataType="Int32" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="7c9895f55cd548d4a9ae05ed0b2d918c" ModelDefinitionType="TDMSDataItemDefinition" Name="M_amplitude_4">
+						<TDMSDataItemDefinition DataName="M_amplitude" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="dd4cf541ca3b4afaba522c105fe06282" ModelDefinitionType="TDMSDataItemDefinition" Name="M_frequency_4">
+						<TDMSDataItemDefinition DataName="M_frequency" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="61078eda3a964ebe9981d95c2fb1c7be" ModelDefinitionType="TDMSDataItemDefinition" Name="M_sample_rate_4">
+						<TDMSDataItemDefinition DataName="M_sample_rate" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="4ea03f2f2bde4603b918b88882537f58" ModelDefinitionType="TDMSDataItemDefinition" Name="M_samples_4">
+						<TDMSDataItemDefinition DataName="M_samples" DataType="Int32" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="75d4357370184b01acc6c13f5f0154ad" ModelDefinitionType="TDMSDataItemDefinition" Name="carrier_signal_4">
+						<TDMSDataItemDefinition DataName="carrier_signal" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="9b139dec4e814becacd530b5e2edb4a1" ModelDefinitionType="TDMSDataItemDefinition" Name="message_signal_4">
+						<TDMSDataItemDefinition DataName="message_signal" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="782aa73f89f74051ac435806ea5245d2" ModelDefinitionType="TDMSDataItemDefinition" Name="message power spectrum_4">
+						<TDMSDataItemDefinition DataName="message power spectrum" DataType="@a8106957b9c74a119f0e3cfccf03e781" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="bf40a19649c840b7b60852f74146d69e" ModelDefinitionType="TDMSDataItemDefinition" Name="AM_signal_4">
+						<TDMSDataItemDefinition DataName="AM_signal" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="262a3a36aae64c95809655b475456fe5" ModelDefinitionType="TDMSDataItemDefinition" Name="AM power spectrum_4">
+						<TDMSDataItemDefinition DataName="AM power spectrum" DataType="@a8106957b9c74a119f0e3cfccf03e781" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="fff317e1c3924f728dfd83cba12fe0b9" ModelDefinitionType="TDMSDataItemDefinition" Name="carrier power spectrum_4">
+						<TDMSDataItemDefinition DataName="carrier power spectrum" DataType="@a8106957b9c74a119f0e3cfccf03e781" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="598141166399406dbdc0ab076a769d69" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_5">
+				<TDMSRootDefinition StoragePath="Data-2021-01-25 100423 389.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Id="5090fa23fff3420e9d635154a58b6923" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_5">
+					<TDMSGroupDefinition GroupName="Capture 5" Source="AM.gvi" SourceType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Timestamp="01/25/2021 10:04:23" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Id="f2625c68008847b693db82d7ed86e711" ModelDefinitionType="TDMSDataItemDefinition" Name="C_amplitude_5">
+						<TDMSDataItemDefinition DataName="C_amplitude" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="65c4da1bec4b45448a95734103854b06" ModelDefinitionType="TDMSDataItemDefinition" Name="C_frequency_5">
+						<TDMSDataItemDefinition DataName="C_frequency" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="6513e4b824cf418bae802d91bb86823d" ModelDefinitionType="TDMSDataItemDefinition" Name="C_sample_rate_5">
+						<TDMSDataItemDefinition DataName="C_sample_rate" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="f7f84c4035f140dc8ad8c6bf1fb54a85" ModelDefinitionType="TDMSDataItemDefinition" Name="C_samples_5">
+						<TDMSDataItemDefinition DataName="C_samples" DataType="Int32" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="90823d147a14072860ff10abb3aefe1" ModelDefinitionType="TDMSDataItemDefinition" Name="M_amplitude_5">
+						<TDMSDataItemDefinition DataName="M_amplitude" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="8df0d72097d34ea0859b2da1158ace86" ModelDefinitionType="TDMSDataItemDefinition" Name="M_frequency_5">
+						<TDMSDataItemDefinition DataName="M_frequency" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="4203e6d2ec984ba18ce49eefa8aba415" ModelDefinitionType="TDMSDataItemDefinition" Name="M_sample_rate_5">
+						<TDMSDataItemDefinition DataName="M_sample_rate" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="ed0b5bb234db4f5398383933918f5bc2" ModelDefinitionType="TDMSDataItemDefinition" Name="M_samples_5">
+						<TDMSDataItemDefinition DataName="M_samples" DataType="Int32" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="f453aa32cc344054b95757e873190022" ModelDefinitionType="TDMSDataItemDefinition" Name="carrier_signal_5">
+						<TDMSDataItemDefinition DataName="carrier_signal" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="33b688df018e4d15872317ae212eb875" ModelDefinitionType="TDMSDataItemDefinition" Name="message_signal_5">
+						<TDMSDataItemDefinition DataName="message_signal" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="e92f5e93a39f41ea8c9be5ff84ad7abe" ModelDefinitionType="TDMSDataItemDefinition" Name="message power spectrum_5">
+						<TDMSDataItemDefinition DataName="message power spectrum" DataType="@a8106957b9c74a119f0e3cfccf03e781" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="268c2375c4e84b169b2e426656cef1dd" ModelDefinitionType="TDMSDataItemDefinition" Name="AM_signal_5">
+						<TDMSDataItemDefinition DataName="AM_signal" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="7f6432d2566344218f2e21a43013af2a" ModelDefinitionType="TDMSDataItemDefinition" Name="AM power spectrum_5">
+						<TDMSDataItemDefinition DataName="AM power spectrum" DataType="@a8106957b9c74a119f0e3cfccf03e781" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="75531c53b2734ddc9ae7b0d4f69742fb" ModelDefinitionType="TDMSDataItemDefinition" Name="carrier power spectrum_5">
+						<TDMSDataItemDefinition DataName="carrier power spectrum" DataType="@a8106957b9c74a119f0e3cfccf03e781" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="5e94bcfdd8e0436d9b8f7b5b317526f5" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_6">
+				<TDMSRootDefinition StoragePath="Data-2021-01-25 100740 769.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Id="4264548e64db46719abeea87684a8447" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_6">
+					<TDMSGroupDefinition GroupName="Capture 6" Source="AM.gvi" SourceType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Timestamp="01/25/2021 10:07:40" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Id="51e63ef33347486da0a1788e716015ac" ModelDefinitionType="TDMSDataItemDefinition" Name="C_amplitude_6">
+						<TDMSDataItemDefinition DataName="C_amplitude" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="aff94aa1aeab41d294a6d248ef65d50c" ModelDefinitionType="TDMSDataItemDefinition" Name="C_frequency_6">
+						<TDMSDataItemDefinition DataName="C_frequency" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="61ef3faa3d4d40f99e76aa4948cf2973" ModelDefinitionType="TDMSDataItemDefinition" Name="C_sample_rate_6">
+						<TDMSDataItemDefinition DataName="C_sample_rate" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="871394d433c042e3ba3ae1a0e7838ebd" ModelDefinitionType="TDMSDataItemDefinition" Name="C_samples_6">
+						<TDMSDataItemDefinition DataName="C_samples" DataType="Int32" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="fd380e53d0bf4ce08a7648f7ccaacdee" ModelDefinitionType="TDMSDataItemDefinition" Name="M_amplitude_6">
+						<TDMSDataItemDefinition DataName="M_amplitude" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="2bcdeda0e4824f13aa584cfc43c0a03e" ModelDefinitionType="TDMSDataItemDefinition" Name="M_frequency_6">
+						<TDMSDataItemDefinition DataName="M_frequency" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="ed6c2b58a4f04e6eb1b51a39e52c0b80" ModelDefinitionType="TDMSDataItemDefinition" Name="M_sample_rate_6">
+						<TDMSDataItemDefinition DataName="M_sample_rate" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="46efc540eb60424e8594796745d819d7" ModelDefinitionType="TDMSDataItemDefinition" Name="M_samples_6">
+						<TDMSDataItemDefinition DataName="M_samples" DataType="Int32" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="1f33f01b1eaa461cae2ee71fbfbd02e4" ModelDefinitionType="TDMSDataItemDefinition" Name="carrier_signal_6">
+						<TDMSDataItemDefinition DataName="carrier_signal" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="4c2ee212d64e4a8e997a16069e7ac90f" ModelDefinitionType="TDMSDataItemDefinition" Name="message_signal_6">
+						<TDMSDataItemDefinition DataName="message_signal" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="4233376602aa45329d15164c988f6c90" ModelDefinitionType="TDMSDataItemDefinition" Name="message power spectrum_6">
+						<TDMSDataItemDefinition DataName="message power spectrum" DataType="@a8106957b9c74a119f0e3cfccf03e781" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="e281853f13046fe916e4c2c73db47ab" ModelDefinitionType="TDMSDataItemDefinition" Name="AM_signal_6">
+						<TDMSDataItemDefinition DataName="AM_signal" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="1963371210c441cf9347ebe4162cd6ea" ModelDefinitionType="TDMSDataItemDefinition" Name="AM power spectrum_6">
+						<TDMSDataItemDefinition DataName="AM power spectrum" DataType="@a8106957b9c74a119f0e3cfccf03e781" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="608a0f1ff8a145ff9f5037db9525f06f" ModelDefinitionType="TDMSDataItemDefinition" Name="carrier power spectrum_6">
+						<TDMSDataItemDefinition DataName="carrier power spectrum" DataType="@a8106957b9c74a119f0e3cfccf03e781" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="f7cc2f47c7d84da0bd4459e857d2c346" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_7">
+				<TDMSRootDefinition StoragePath="Data-2021-01-25 100901 209.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Id="83208d38c25642c2ac9a7a5becb39bce" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_7">
+					<TDMSGroupDefinition GroupName="Capture 7" Source="AM.gvi" SourceType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Timestamp="01/25/2021 10:09:01" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Id="9d6713350b5c4035b0a2304bc60813c4" ModelDefinitionType="TDMSDataItemDefinition" Name="C_amplitude_7">
+						<TDMSDataItemDefinition DataName="C_amplitude" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="d7bfad4ef8d44485b84f17b7bce517bb" ModelDefinitionType="TDMSDataItemDefinition" Name="C_frequency_7">
+						<TDMSDataItemDefinition DataName="C_frequency" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="e0364a2a58b1403ba6be599e1406c7cd" ModelDefinitionType="TDMSDataItemDefinition" Name="C_sample_rate_7">
+						<TDMSDataItemDefinition DataName="C_sample_rate" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="430e0161855c4cd8b9708f79f4276941" ModelDefinitionType="TDMSDataItemDefinition" Name="C_samples_7">
+						<TDMSDataItemDefinition DataName="C_samples" DataType="Int32" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="91086fd83c91442597c15e0f8f4acac2" ModelDefinitionType="TDMSDataItemDefinition" Name="M_amplitude_7">
+						<TDMSDataItemDefinition DataName="M_amplitude" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="3ba0ebcecfd043019ae4e6273936a405" ModelDefinitionType="TDMSDataItemDefinition" Name="M_frequency_7">
+						<TDMSDataItemDefinition DataName="M_frequency" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="4110f3a753bd4583b1c8b07c6aff321d" ModelDefinitionType="TDMSDataItemDefinition" Name="M_sample_rate_7">
+						<TDMSDataItemDefinition DataName="M_sample_rate" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="997395774c714caeaa95581df5890c12" ModelDefinitionType="TDMSDataItemDefinition" Name="M_samples_7">
+						<TDMSDataItemDefinition DataName="M_samples" DataType="Int32" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="9c502de8443e44e1870084b3f1c7e36c" ModelDefinitionType="TDMSDataItemDefinition" Name="carrier_signal_7">
+						<TDMSDataItemDefinition DataName="carrier_signal" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="820eeb13a4f04096888a89ee9cb33fe8" ModelDefinitionType="TDMSDataItemDefinition" Name="message_signal_7">
+						<TDMSDataItemDefinition DataName="message_signal" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="c964f95564ea41e9b7e03971941938a3" ModelDefinitionType="TDMSDataItemDefinition" Name="message power spectrum_7">
+						<TDMSDataItemDefinition DataName="message power spectrum" DataType="@a8106957b9c74a119f0e3cfccf03e781" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="9e60403bfaf04d2aa50e867bd2850cc5" ModelDefinitionType="TDMSDataItemDefinition" Name="AM_signal_7">
+						<TDMSDataItemDefinition DataName="AM_signal" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="f618c4f53ef44a9495d36dfe4111b9be" ModelDefinitionType="TDMSDataItemDefinition" Name="AM power spectrum_7">
+						<TDMSDataItemDefinition DataName="AM power spectrum" DataType="@a8106957b9c74a119f0e3cfccf03e781" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="f2aa171abb942b1a91b42a7def8c350" ModelDefinitionType="TDMSDataItemDefinition" Name="carrier power spectrum_7">
+						<TDMSDataItemDefinition DataName="carrier power spectrum" DataType="@a8106957b9c74a119f0e3cfccf03e781" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="a8106957b9c74a119f0e3cfccf03e781">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="f0" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="df" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="magnitude" DataType="Double[]" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

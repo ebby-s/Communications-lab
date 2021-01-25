@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="6986B4D7126F0F27A928114F0B4869A90968D042790071349EED40F1EC0535E1058171A355FCCC76AA3EA9834E85CF7D632F44758CB9DB3BBB326FAB2B54466E" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="DBBD1892E256192175DE0144288424E770D6FBE8FB5E70B8E6A46BB36CA144C11EE124324DEEAEA4876C51D7DCD0868F67F3F88E705DBBC3510ECAEEF5F629B9" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="6.4.0.49504" FeatureSetName="Data" Name="http://www.ni.com/Data" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.0.49504" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.0.49504" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.2.0.49153" Version="6.2.0.49153" />
 		<ParsableNamespace AssemblyFileVersion="6.4.0.49504" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
@@ -408,8 +409,9 @@
 				<SourceFileReference Bindings="EnvoyManager" Id="b013708266894b26a4b97fbc80f55b4f" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-usrprio-tools-src-19.0.0.niaddon" StoragePath="ref://NI/USRPRIO/Tools-src/19.0.0" />
 				<SourceFileReference Bindings="EnvoyManager" Id="21a05b9244574e13ab1ac1bebd750ae3" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-visa-base-src-18.5.0.niaddon" StoragePath="ref://NI/VISA/Base-src/18.5.0" />
 			</EmbeddedDefinitionReference>
+			<SourceFileReference Bindings="EnvoyManager" Id="336a32c9e8094e43aa503d4a876a9a7b" ModelDefinitionType="{http://www.ni.com/Data}DataIndexDefinition" Name="data.xml" StoragePath="NI Project Data\data.xml" />
 		</NameScopingEnvoy>
-		<SourceFileReference Id="cc4e21d2892f4489bf2ebd74c1f2b598" ModelDefinitionType="SystemManagementDefinition" Name="SystemDesigner" StoragePath="SystemDesigner" />
+		<SourceFileReference Id="cc4e21d2892f4489bf2ebd74c1f2b598" ModelDefinitionType="SystemManagementDefinition" Name="SystemDesigner_2" StoragePath="SystemDesigner" />
 	</Project>
 	<ProjectInformation ProjectIconFilename="Blank Project.png" xmlns="http://www.ni.com/PlatformFramework" />
 </SourceFile>
